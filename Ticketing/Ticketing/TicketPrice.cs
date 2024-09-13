@@ -10,7 +10,11 @@
 
         const decimal mdecBalcony = 35.5m;
         const decimal mdecGeneral = 28.75m;
+<<<<<<< HEAD
         const decimal mdecBox = 20.0m;
+=======
+        const decimal mdecBox = 30.0m;
+>>>>>>> newBranchfeature
         const decimal mdecDiscount = 5.0m;
 
         private int Section
@@ -64,7 +68,11 @@
             if (discount)
             { mPrice -= mdecDiscount; }
 
+<<<<<<< HEAD
             AmountDue = mPrice * quantity;
+=======
+            AmountDue = (mPrice * quantity) * 0.9m;
+>>>>>>> newBranchfeature
 
         }
     }
